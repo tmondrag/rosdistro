@@ -6118,6 +6118,10 @@ libsimage-dev:
   debian: [libsimage-dev]
   gentoo: [media-libs/simage]
   ubuntu: [libsimage-dev]
+libsm:
+  debian: [libsm6]
+  fedora: [libSM]
+  ubuntu: [libsm6]
 libsndfile1-dev:
   arch: [libsndfile]
   debian: [libsndfile1-dev]
