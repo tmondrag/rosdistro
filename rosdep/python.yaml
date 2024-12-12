@@ -4936,6 +4936,10 @@ python3-argcomplete:
   openembedded: [python3-argcomplete@meta-python]
   rhel: ['python%{python3_pkgversion}-argcomplete']
   ubuntu: [python3-argcomplete]
+python3-arrow:
+  debian: [python3-arrow]
+  fedora: [python3-arrow]
+  ubuntu: [python3-arrow]
 python3-asn1tools-pip:
   '*':
     pip:
@@ -6296,6 +6300,12 @@ python3-funcsigs:
   debian: [python3-funcsigs]
   fedora: [python3-funcsigs]
   ubuntu: [python3-funcsigs]
+python3-furl:
+  debian: [python3-furl]
+  fedora:
+    pip:
+      packages: [furl]
+  ubuntu: [python3-furl]
 python3-future:
   debian: [python3-future]
   fedora: [python3-future]
